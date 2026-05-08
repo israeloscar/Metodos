@@ -10,7 +10,8 @@ Iniciado em maio/2026 com o objetivo de conseguir meu primeiro emprego como dese
 ```
 Metodos/
 └── src/
-    └── CalculadoraMetodos.java
+    ├── CalculadoraMetodos.java
+    └── Fatoriais.java
 ```
 
 ---
@@ -20,6 +21,7 @@ Metodos/
 | Arquivo | Descrição | Conceitos praticados |
 |---|---|---|
 | `CalculadoraMetodos.java` | Calculadora com menu interativo e métodos separados | `static`, parâmetros, retorno, `switch`, `while` |
+| `Fatoriais.java` | Fatorial nas versões iterativa e recursiva | recursão, `long`, métodos com retorno |
 
 ---
 
