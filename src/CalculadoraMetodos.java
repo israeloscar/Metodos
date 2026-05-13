@@ -76,6 +76,7 @@ public class CalculadoraMetodos {
                 case 5:
                     // Encerra o método inteiro e sai do programa
                     System.out.println("Saindo do programa, até logo!");
+                    sc.close();
                     return;
 
                 default:

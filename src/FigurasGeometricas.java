@@ -54,6 +54,7 @@ public class FigurasGeometricas {
                 case 4:
                     // Encerra o método e sai do programa
                     System.out.println("Fim do programa!");
+                    sc.close();
                     return;
             }
         }

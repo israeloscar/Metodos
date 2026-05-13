@@ -11,6 +11,8 @@ public class Fatoriais {
         // Chama as duas versões e exibe os resultados
         System.out.println("Iterativa: " + fatorialIterativa(num));
         System.out.println("Recursiva: " + fatorialRecursiva(num));
+
+        sc.close();
     }
 
     // Versão iterativa — calcula o fatorial usando um loop for
@@ -36,5 +38,6 @@ public class Fatoriais {
         // Caso recursivo: n × fatorial do número anterior
         return n * fatorialRecursiva(n - 1);
     }
+
 }
 
